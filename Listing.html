@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description"
+        content="All the jackets is listed based on the crateria you have chosen in the filter function">
+    <title>Listing</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="/HTML/index.html">
+                <img class="headerlogo" src="../Img/Logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <div id="normalMenu">
+                <ul>
+                    <li class="headerNav"><a href="Listing.html">Women</a></li>
+                    <li class="headerNav"><a href="Listing.html">Men</a></li>
+                    <li class="headerNav"><a href="About.html">About</a></li>
+                    <li class="headerNav"><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="hamburgerMenuBtn">
+                <img src="/Img/hamburgerMenu.png" alt="hamburgerManuIcon">
+            </div>
+        </nav>
+        <div>
+            <a href="Checkout.html">
+                <img src="../Img/checkout.png" alt="checkout icon">
+            </a>
+        </div>
+        <div class="showHamburgerMenu hamburgerMenu">
+            <ul>
+                <li class="headerNav"><a href="Listing.html">Women</a></li>
+                <li class="headerNav"><a href="Listing.html">Men</a></li>
+                <li class="headerNav"><a href="About.html">About</a></li>
+                <li class="headerNav"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="listingBody">
+        <!-- <div id="listingSorting">
+            <select name="Size" class="listingDropdown">
+                <option value="" disabled selected hidden>Size</option>
+                <option value="Small">S</option>
+                <option value="Medium">M</option>
+                <option value="Large">L</option>
+                <option value="Xtra-large">XL</option>
+            </select>
+            <select name="Color" class="listingDropdown">
+                <option value="" disabled selected hidden>Color</option>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+                <option value="Red">Red</option>
+                <option value="Purple">Purple</option>
+                <option value="Pink">Pink</option>
+                <option value="Yellow">Yellow</option>
+            </select>
+            <select name="Other Sorting" class="listingDropdown">
+                <option value="" disabled selected hidden>Sort after</option>
+                <option value="PriceUp">Price low-high</option>
+                <option value="PriceDown">Price high-low</option>
+                <option value="Sale">Sale</option>
+            </select>
+        </div> -->
+        <div class="listingJackets">
+            <div class="loader"></div>
+        </div>
+
+    </div>
+</body>
+
+<footer>
+    <div>
+        <p id="footerP">1234 Adress</p>
+        <p id="footerP">Somwhere in Norway</p>
+    </div>
+    <div id="footerVisa">
+        <img src="../Img/paymentLogo.png" alt="Visa logo">
+    </div>
+</footer>
+<script src="/JS/listing.js"></script>
+</html>
