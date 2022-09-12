@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="This is where you checkout the items you have chosen on the website">
+    <title>Checkout</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="/HTML/Landingpage.html">
+                <img class="headerlogo" src="../Img/Logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <div id="normalMenu">
+                <ul>
+                    <li class="headerNav"><a href="Listing.html">Women</a></li>
+                    <li class="headerNav"><a href="Listing.html">Men</a></li>
+                    <li class="headerNav"><a href="About.html">About</a></li>
+                    <li class="headerNav"><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="hamburgerMenuBtn">
+                <img src="/Img/hamburgerMenu.png" alt="hamburgerManuIcon">
+            </div>
+        </nav>
+        <div>
+            <a href="Checkout.html">
+                <img src="../Img/checkout.png" alt="checkout icon">
+            </a>
+        </div>
+        <div class="showHamburgerMenu hamburgerMenu">
+            <ul>
+                <li class="headerNav"><a href="Listing.html">Women</a></li>
+                <li class="headerNav"><a href="Listing.html">Men</a></li>
+                <li class="headerNav"><a href="About.html">About</a></li>
+                <li class="headerNav"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="checkoutBodyBox">
+        <div id="checkoutBody">
+            <div class="checkoutBanner">
+                <h1 class="bannerText">Your cart</h1>
+            </div>
+            <div id="checkoutListing">
+                <img id="detailsImgSmall" src="../Img/RedJacket.jpg" alt="Man in red Jacket posing">
+                <p>Name of the jacket + size</p>
+                <p>1 500 Kr/each</p>
+                <p>+<span id="amountBox">1</span>-</p>
+            </div>
+            <div class="checkoutBanner">
+                <h1 class="bannerText">Finish order</h1>
+            </div>
+            <div>
+                <form>
+                    <div class="checkoutFormFields">
+                        <label for="email">Email</label>
+                        <input id="email" placeholder="Email" type="text">
+                    </div>
+
+                    <div class="checkoutFormFields">
+                        <label for="postCode">Post code</label>
+                        <input id="postCode" placeholder="Post code" type="text">
+                    </div>
+                    <div class="checkoutFormFields">
+                        <label for="birth">Date of birth</label>
+                        <input id="birth" placeholder="Date of birth" type="text">
+                    </div>
+                    <div class="checkoutFormFields">
+                        <label for="fName">First name</label>
+                        <input id="fName" placeholder="First name" type="text">
+                    </div>
+                    <div class="checkoutFormFields">
+                        <label for="lName">Last name</label>
+                        <input id="lName" placeholder="Last name" type="text">
+                    </div>
+                    <div class="checkoutFormFields">
+                        <label for="adress">Adress</label>
+                        <input id="adress" placeholder="Adress" type="text">
+                    </div>
+                    <div class="checkoutFormFields">
+                        <label for="country">Country</label>
+                        <input id="country" placeholder="Country" type="text">
+                    </div>
+                </form>
+            </div>
+            <div class="checkoutBanner">
+                <h1 class="bannerText">Delivery</h1>
+            </div>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem doloribus officiis ipsa
+                    ullam atque asperiores, delectus culpa distinctio
+                </p>
+            </div>
+            <div class="checkoutBanner">
+                <h1 class="bannerText">Payment</h1>
+            </div>
+            <div id="checkoutVisaBox">
+                <div><img id="checkoutVisa" src="../Img/paymentLogo.png" alt="Visa logo"></div>
+                <form id="checkoutForm">
+                    <div class="checkoutFormFields">
+                        <label for="date">Date</label>
+                        <input id="date" placeholder="Date" type="text">
+                    </div>
+                    <div class="checkoutFormFields">
+                        <label for="cvc">CVC</label>
+                        <input id="cvc" placeholder="CVC" type="text">
+                    </div>
+                    <div class="checkoutFormFields">
+                        <label for="cardNumber">Card number</label>
+                        <input id="cardNumber" placeholder="Card number" type="text">
+                    </div>
+                </form>
+            </div>
+
+            <div id="checkoutLeft">
+                <div class="checkoutBanner">
+                    <h1 class="bannerText">Payment</h1>
+                </div>
+                <div id="cuponCode">
+                    <span id="cuponLabel" for="cuponCodeField">Cupon Code</span>
+                    <input id="cuponCodeField" type="text">
+                    <button>OK</button>
+                </div>
+                <div>
+                    <form id="noForm" action="Receipt.html">
+                        <input id="completePurchase" type="submit" value="Complete purchase" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p id="footerP">1234 Adress</p>
+            <p id="footerP">Somwhere in Norway</p>
+        </div>
+
+        <div id="footerVisa">
+            <img src="../Img/paymentLogo.png" alt="Visa logo">
+        </div>
+    </footer>
+</body>
+
+
+
+</html>
+<script src="/JS/hamburgerMenu.js"></script>

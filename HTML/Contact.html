@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="Contact information to get in touch with the company">
+    <title>Contact</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="/HTML/Landingpage.html">
+                <img class="headerlogo" src="../Img/Logo.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <div id="normalMenu">
+                <ul>
+                    <li class="headerNav"><a href="Listing.html">Women</a></li>
+                    <li class="headerNav"><a href="Listing.html">Men</a></li>
+                    <li class="headerNav"><a href="About.html">About</a></li>
+                    <li class="headerNav"><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="hamburgerMenuBtn">
+                <img src="/Img/hamburgerMenu.png" alt="hamburgerManuIcon">
+            </div>
+        </nav>
+        <div>
+            <a href="Checkout.html">
+                <img src="../Img/checkout.png" alt="checkout icon">
+            </a>
+        </div>
+        <div class="showHamburgerMenu hamburgerMenu">
+            <ul>
+                <li class="headerNav"><a href="Listing.html">Women</a></li>
+                <li class="headerNav"><a href="Listing.html">Men</a></li>
+                <li class="headerNav"><a href="About.html">About</a></li>
+                <li class="headerNav"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="contactBody">
+        <h1 id="contactHeader">Contact us</h1>
+
+        <div id="contactContainer">
+            <div id="contactLeft">
+                <div id="contactLeftBox">
+                    <div>
+                        <p class="contactLeftBoxText">lorem ipsum dlor sit amet, consecteur adipsicing elit, sed do
+                            siusmod
+                            tempor
+                            incididunt ut labore et
+                            dolore</p>
+                    </div>
+                    <div id="contactLeftBoxFooter">
+                        <p class="contactLeftBoxText">email@email.no</p>
+                        <p class="contactLeftBoxText">+01 234 567</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contactRight">
+                <form id="contactForm" action="">
+                    <div class="inputContainer">
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="fname" placeholder="Enter your name">
+                        <div id="nameError" class="formError">
+                            <p>Please enter your name</p>
+                        </div>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="email">Email*</label>
+                        <input type="text" id="email" name="email" placeholder="Enter your email">
+                        <div id="emailError" class="formError">Please enter a valid email</div>
+                    </div>
+                    <div class="inputContainer">
+                        <label for="message">Message*</label>
+                        <textarea id="message" placeholder="Let us know how we can help" name="Message*" cols="30"
+                            rows="10"></textarea>
+                        <div id="messageError" class="formError">Must contain a message</div>
+                    </div>
+                    <input id="submitBtn" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div>
+        <p id="footerP">1234 Adress</p>
+        <p id="footerP">Somwhere in Norway</p>
+    </div>
+    <div id="footerVisa">
+        <img src="../Img/paymentLogo.png" alt="Visa logo">
+    </div>
+</footer>
+
+</html>
+<script src="/JS/contact.js"></script>
+<script src="/JS/hamburgerMenu.js"></script>
