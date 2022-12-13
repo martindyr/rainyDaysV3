@@ -1,6 +1,6 @@
 # Rainy Days
 
-![image](https://user-images.githubusercontent.com/76110230/206708705-e8760c35-042b-4a00-9917-6bc62d7e72c2.png)
+![image](https://user-images.githubusercontent.com/76110230/207369266-df468daf-596b-437f-a137-39f3b5d4d769.png)
 
 A website that displays rain clothes. These clothings are fetched from my backend, in this project i used a headless CMS wordpress.
 
